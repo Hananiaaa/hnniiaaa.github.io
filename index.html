@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Saya</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #3c3d4c, #7a7ca7);
+      color: white;
+      padding: 4rem 0;
+      text-align: center;
+    }
+
+    .hero nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .hero nav a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      padding: 3rem 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    form button {
+      background-color: #3c3d4c;
+      color: white;
+      padding: 0.8rem 2rem;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    form button:hover {
+      background-color: #3c3d4c;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #2f2f2f;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Azka Hanania S</h1>
+      <p>Web Developer | UI/UX Designer | Freelancer</p>
+      <nav>
+        <a href="#about">Tentang</a>
+        <a href="#portofolio">Portofolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="section">
+      <h2>Tentang Saya</h2>
+      <p>Saya adalah seorang pelajar RPL yang bercita-cita untuk berkarier di bidang teknologi, terutama tentang seputar pengembangan perangkat lunak seperti Web Develope. Saat ini Saya sedang belajar membuat web simple dan kecil-kecilan. Harapan saya untuk masa depan adalah bisa berkarier di bidang teknologi dengan sukses dan bisa menciptakan web yang bermanfaat .</p>
+    </section>
+
+    <section id="portofolio" class="section">
+      <h2>Project Saya</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Project A</h3>
+          <p>Membuat Web Portofolio & Biodata menggunakan HTML dan CSS.</p>
+        </div>
+        <div class="card">
+          <h3>Project B</h3>
+          <p>Membuat sistem data nilai siswa menggunakan C#.</p>
+        </div>
+        <div class="card">
+          <h3>Poject C</h3>
+          <p>Membuat Desain UI untuk aplikasi mobile Pembelian Tiket Kebun Binatang.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Email: hannania0528@gmail.com</p>
+      <p>Instagram: <a href="https://instagram.com/hhanniaaa_">@hhanniaaa_</a></p>
+      <p>Tiktok: <a href="https://tiktok.com/hhanniiaa_">@hhanniiaa_</a></p>
+      <p>GitHub: <a href="https://GitHub.com/Hananiaaa">@Hananiaaa</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 hhanniiaaa</p>
+  </footer>
+</body>
+</html>
